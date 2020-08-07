@@ -1,0 +1,36 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.dbinstall {
+    max-width: 400px;
+    margin: 0 auto;
+    display: block;
+    padding: 50px 0;
+    text-align: center;
+}
+.dbinstall h1 {
+    font-family: Raleway;
+    font-size: 28px;
+}
+.dbinstall form input[type="text"],
+.dbinstall form input[type="email"] {
+    width: 100%;
+    margin: 0 0 20px 0;
+    padding: 10px;
+    line-height: 22px;
+    border-radius: 5px;
+    border: #a9a9a9 2px solid;
+	    box-sizing: border-box;
+}
+.dbinstall form input[type="submit"],
+.dbinstall form button {
+    background: #41a9f8;
+    border: none;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 5px;
+	cursor: pointer;
+}
